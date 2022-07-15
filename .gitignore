@@ -6,3 +6,6 @@
 *.props
 *.targets
 *.editorconfig
+*.sln
+*.v2
+DesignPatternsApp/**/**/obj/Debug/
