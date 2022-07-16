@@ -13,11 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenColsePrincipal", "OpenC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LiskovSubstitutionPrincipalApp", "LiskovSubstitutionPrincipalApp", "{0CF9520F-862C-4981-8E35-9183939B98AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrincipal", "LiskovSubstitutionPrincipalApp\LiskovSubstitutionPrincipal\LiskovSubstitutionPrincipal.csproj", "{A349D476-3C09-4484-A32C-3A9ACE5C63AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubstitutionPrincipal", "LiskovSubstitutionPrincipalApp\LiskovSubstitutionPrincipal\LiskovSubstitutionPrincipal.csproj", "{A349D476-3C09-4484-A32C-3A9ACE5C63AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterfaceSegregationPrinciplApp", "InterfaceSegregationPrinciplApp", "{E20C5C9A-6C43-4EBE-A599-AD1194734D4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrincipl", "InterfaceSegregationPrinciplApp\InterfaceSegregationPrincipl\InterfaceSegregationPrincipl.csproj", "{3BB25C0C-D7D0-4117-B8BD-7F7740388DC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegregationPrincipl", "InterfaceSegregationPrinciplApp\InterfaceSegregationPrincipl\InterfaceSegregationPrincipl.csproj", "{3BB25C0C-D7D0-4117-B8BD-7F7740388DC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuilderPatternApp", "BuilderPatternApp", "{05E65CA9-C447-4140-9556-8F6F2D0C5D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPatternApp\BuilderPattern\BuilderPattern.csproj", "{BB5B5F3D-1E00-4A4D-9D2B-0BF506BC1E54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{3BB25C0C-D7D0-4117-B8BD-7F7740388DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB25C0C-D7D0-4117-B8BD-7F7740388DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB25C0C-D7D0-4117-B8BD-7F7740388DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5B5F3D-1E00-4A4D-9D2B-0BF506BC1E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5B5F3D-1E00-4A4D-9D2B-0BF506BC1E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5B5F3D-1E00-4A4D-9D2B-0BF506BC1E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5B5F3D-1E00-4A4D-9D2B-0BF506BC1E54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 		{0BF30875-6A38-43FF-96D7-3D60FDCA55B7} = {51F9A5D7-DC0C-4381-A821-62C60E8D02F8}
 		{A349D476-3C09-4484-A32C-3A9ACE5C63AB} = {0CF9520F-862C-4981-8E35-9183939B98AA}
 		{3BB25C0C-D7D0-4117-B8BD-7F7740388DC4} = {E20C5C9A-6C43-4EBE-A599-AD1194734D4D}
+		{BB5B5F3D-1E00-4A4D-9D2B-0BF506BC1E54} = {05E65CA9-C447-4140-9556-8F6F2D0C5D0D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3A4DC76-4245-4ED5-8685-A41F5D9A51C2}
