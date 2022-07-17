@@ -63,10 +63,11 @@ namespace BuilderPattern
                 root.Name = rootName;
             }
 
-            public void AddChild(string childName, string childText)
+            public HtmlBuilder AddChild(string childName, string childText)
             {
                 var e = new HtmlElement(childName, childText);
                 root.Elements.Add(e);
+                return this; //  for fluent builder
             }
 
             public void Clear()
@@ -96,9 +97,16 @@ namespace BuilderPattern
             Console.WriteLine(sb.ToString());
 
             var htmlBuilder=new HtmlBuilder("ul");
-            htmlBuilder.AddChild("li","Mahfuz");
-            htmlBuilder.AddChild("li","Shazol");
-            htmlBuilder.AddChild("li","Rahman");
+            //htmlBuilder.AddChild("li","Mahfuz");
+            //htmlBuilder.AddChild("li","Shazol");
+            //htmlBuilder.AddChild("li","Rahman");
+
+            //   fluent builder start
+            htmlBuilder
+                       .AddChild("li", "Mahfuz")
+                       .AddChild("li", "Shazol")
+                       .AddChild("li", "Rahman");
+            //   fluent builder end
 
             Console.WriteLine(htmlBuilder.ToString());
 
