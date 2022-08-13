@@ -37,13 +37,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "FactoryP
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VisitorPatternApp", "VisitorPatternApp", "{7948B74D-3758-4B0F-AABA-128005647C60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPatterExample", "VisitorPatterApp\VisitorPatterExample\VisitorPatterExample.csproj", "{D0CC6316-2971-4556-BA1C-7BD0FB37F61E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorPatterExample", "VisitorPatterApp\VisitorPatterExample\VisitorPatterExample.csproj", "{D0CC6316-2971-4556-BA1C-7BD0FB37F61E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChinOfResponsibilityApp", "ChinOfResponsibilityApp", "{9526CE0A-73DE-4476-A86B-11C9FCD10E13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinOfResponsibilityExample", "ChinOfResponsibilityApp\ChinOfResponsibilityExample\ChinOfResponsibilityExample.csproj", "{AA5A99D9-ADF4-4F99-8A6A-C27826EA4B83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChinOfResponsibilityExample", "ChinOfResponsibilityApp\ChinOfResponsibilityExample\ChinOfResponsibilityExample.csproj", "{AA5A99D9-ADF4-4F99-8A6A-C27826EA4B83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterChinOfResponsibilityExample", "ChinOfResponsibilityApp\BetterChinOfResponsibilityExample\BetterChinOfResponsibilityExample.csproj", "{57B43E40-9DCF-44F8-8A68-FA2B75D3BC2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BetterChinOfResponsibilityExample", "ChinOfResponsibilityApp\BetterChinOfResponsibilityExample\BetterChinOfResponsibilityExample.csproj", "{57B43E40-9DCF-44F8-8A68-FA2B75D3BC2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RulesEnginePatternApp", "RulesEnginePatternApp", "{6BFDADC5-A7D3-4F6A-9B83-51C91A20424B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesEnginePatternExapmle", "RulesEnginePatternApp\RulesEnginePatternExapmle\RulesEnginePatternExapmle.csproj", "{8E9C4CDD-A5C7-43BF-85B7-9035E4B866C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +107,10 @@ Global
 		{57B43E40-9DCF-44F8-8A68-FA2B75D3BC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57B43E40-9DCF-44F8-8A68-FA2B75D3BC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57B43E40-9DCF-44F8-8A68-FA2B75D3BC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9C4CDD-A5C7-43BF-85B7-9035E4B866C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9C4CDD-A5C7-43BF-85B7-9035E4B866C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9C4CDD-A5C7-43BF-85B7-9035E4B866C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9C4CDD-A5C7-43BF-85B7-9035E4B866C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +129,7 @@ Global
 		{D0CC6316-2971-4556-BA1C-7BD0FB37F61E} = {7948B74D-3758-4B0F-AABA-128005647C60}
 		{AA5A99D9-ADF4-4F99-8A6A-C27826EA4B83} = {9526CE0A-73DE-4476-A86B-11C9FCD10E13}
 		{57B43E40-9DCF-44F8-8A68-FA2B75D3BC2E} = {9526CE0A-73DE-4476-A86B-11C9FCD10E13}
+		{8E9C4CDD-A5C7-43BF-85B7-9035E4B866C6} = {6BFDADC5-A7D3-4F6A-9B83-51C91A20424B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3A4DC76-4245-4ED5-8685-A41F5D9A51C2}
